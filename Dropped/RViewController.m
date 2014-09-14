@@ -1,29 +1,29 @@
+////
+////  RViewController.m
+////  Dropped
+////
+////  Created by Ravinder Vatish on 5/29/14.
+////  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
+////
 //
-//  RViewController.m
-//  Dropped
+//#import "RViewController.h"
 //
-//  Created by Ravinder Vatish on 5/29/14.
-//  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
+//@interface RViewController ()
 //
-
-#import "RViewController.h"
-
-@interface RViewController ()
-
-@end
-
-@implementation RViewController
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-@end
+//@end
+//
+//@implementation RViewController
+//
+//- (void)viewDidLoad
+//{
+//    [super viewDidLoad];
+//	// Do any additional setup after loading the view, typically from a nib.
+//}
+//
+//- (void)didReceiveMemoryWarning
+//{
+//    [super didReceiveMemoryWarning];
+//    // Dispose of any resources that can be recreated.
+//}
+//
+//@end
