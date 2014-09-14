@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2384A41F19C622070094EE3B /* icono-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 2384A41E19C622070094EE3B /* icono-76.png */; };
 		23956778193810FB002C9453 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23956777193810FB002C9453 /* Foundation.framework */; };
 		2395677A193810FB002C9453 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23956779193810FB002C9453 /* CoreGraphics.framework */; };
 		2395677C193810FB002C9453 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2395677B193810FB002C9453 /* UIKit.framework */; };
@@ -16,7 +17,6 @@
 		2395678B193810FB002C9453 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23956789193810FB002C9453 /* Main_iPhone.storyboard */; };
 		2395678E193810FB002C9453 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2395678C193810FB002C9453 /* Main_iPad.storyboard */; };
 		23956791193810FB002C9453 /* RViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23956790193810FB002C9453 /* RViewController.m */; };
-		23956793193810FB002C9453 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23956792193810FB002C9453 /* Images.xcassets */; };
 		2395679A193810FB002C9453 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23956799193810FB002C9453 /* XCTest.framework */; };
 		2395679B193810FB002C9453 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23956777193810FB002C9453 /* Foundation.framework */; };
 		2395679C193810FB002C9453 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2395677B193810FB002C9453 /* UIKit.framework */; };
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2384A41E19C622070094EE3B /* icono-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icono-76.png"; path = "../../../../Downloads/Projects/Jellow 2/icono-76.png"; sourceTree = "<group>"; };
 		23956774193810FB002C9453 /* Dropped.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropped.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23956777193810FB002C9453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		23956779193810FB002C9453 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -49,7 +50,6 @@
 		2395678D193810FB002C9453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		2395678F193810FB002C9453 /* RViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RViewController.h; sourceTree = "<group>"; };
 		23956790193810FB002C9453 /* RViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RViewController.m; sourceTree = "<group>"; };
-		23956792193810FB002C9453 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		23956798193810FB002C9453 /* DroppedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DroppedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23956799193810FB002C9453 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		239567A1193810FB002C9453 /* DroppedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DroppedTests-Info.plist"; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 				2395678C193810FB002C9453 /* Main_iPad.storyboard */,
 				2395678F193810FB002C9453 /* RViewController.h */,
 				23956790193810FB002C9453 /* RViewController.m */,
-				23956792193810FB002C9453 /* Images.xcassets */,
+				2384A41E19C622070094EE3B /* icono-76.png */,
 				2395677E193810FB002C9453 /* Supporting Files */,
 			);
 			path = Dropped;
@@ -233,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2395678E193810FB002C9453 /* Main_iPad.storyboard in Resources */,
-				23956793193810FB002C9453 /* Images.xcassets in Resources */,
+				2384A41F19C622070094EE3B /* icono-76.png in Resources */,
 				2395678B193810FB002C9453 /* Main_iPhone.storyboard in Resources */,
 				23956782193810FB002C9453 /* InfoPlist.strings in Resources */,
 			);
@@ -471,6 +471,7 @@
 				239567AB193810FB002C9453 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		239567AC193810FB002C9453 /* Build configuration list for PBXNativeTarget "DroppedTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +480,7 @@
 				239567AE193810FB002C9453 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
