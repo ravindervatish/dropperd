@@ -26,7 +26,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-//ravinder vatish
-//parmjit
-
+//Khattra
 @end
